@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: Another Danger h1;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-family: whisper;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+h3 {
+    color: red;
+    font-size: 30px;
+}
+
+ol {
+    color: white;
+}
+
+@font-face {
+    font-family: Another Danger h1;
+    src: url(../Multimedia/fonts/another_danger/Another\ Danger\ -\ Demo.otf);
+
+}
+
+@font-face {
+    font-family: whisper;
+    src: url(../Multimedia/fonts/whisper/Whisper-Regular.ttf);
+}
+
+.galeria_fotos {
+    width: 400px;
+}
+
+.patri {
+    width: 400px;
+    border: 1px;
+
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
